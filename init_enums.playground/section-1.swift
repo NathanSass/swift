@@ -8,8 +8,8 @@ struct Contact{
     let lastName: String
     var type: String
     
-    function fullName() -> String {
-        return firstName + 
+    func fullName() -> String {
+        return self.firstName + " " + self.lastName
     }
     
     init(firstName: String, lastName: String){
@@ -20,3 +20,5 @@ struct Contact{
 }
 
 var person = Contact(firstName: "Jon", lastName: "Smith");
+person.fullName();
+
