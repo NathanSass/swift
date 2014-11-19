@@ -58,15 +58,34 @@ countries["CA"]
 countries["US"] = "United States"
 
 countries
-let item = countries.removeValueForKey("CA")
+//let item = countries.removeValueForKey("CA")
 
 ///////////////////
 ///// L O O P S
 ///////////////////
 
 
+for item in todo {
+    println(item)
+}
 
+for number in 1...10{
+    println("\(number) times 2 is \(number*2)")
+}
 
+var index = 0
+while index < todo.count {
+    println(todo[index])
+    index++
+}
+index = 0
 
+do {
+    println(todo[index])
+    index++
+} while index < todo.count
 
+for var i = 0; i < todo.count; i++ {
+    println(todo[i])
+}
 
