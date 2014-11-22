@@ -89,3 +89,51 @@ for var i = 0; i < todo.count; i++ {
     println(todo[i])
 }
 
+//////////////
+//// S W I T C H
+//////////////
+
+let cards = 1...13
+
+for card in cards{
+    switch card {
+    case 1...5:
+        println("TRUMP")
+    case 6,7:
+        println("swag")
+    case 11:
+        println("Jack")
+    case 12:
+        println("Queen")
+    case 13:
+        println("King")
+    default:
+        println(card)
+    }
+}
+//////////////
+//// F I Z Z B U Z Z
+//////////////
+
+
+for i in 1...20{
+    if ((i % 3 == 0) && (i % 5 == 0)){
+        println("FizzBuzz")
+    } else if (i % 3 == 0) {
+        println("Fizz")
+    }else if (i % 5 == 0) {
+        println("Buzz")
+    }else {
+        println(i)
+    }
+}
+
+
+
+
+
+
+
+
+
+
