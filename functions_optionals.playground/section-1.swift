@@ -49,3 +49,36 @@ let newResult = searchNames(name: "Andrew")
 
 
 newResult.found
+
+
+/////////////
+/// DIVISIBLE
+/////////////
+
+func isDivisible(#firstNum: Int, #secondNum: Int) -> Bool? {
+    if firstNum % secondNum == 0 {
+       return true
+    }else {
+        return nil
+    }
+}
+
+if let newResult = isDivisible(firstNum: 12, secondNum: 6) {
+    println("Divisible")
+} else {
+    println("Not Divisible")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
