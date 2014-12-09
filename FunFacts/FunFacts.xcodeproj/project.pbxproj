@@ -13,6 +13,8 @@
 		A1587D3B1A280B7C007BFC5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1587D3A1A280B7C007BFC5F /* Images.xcassets */; };
 		A1587D3E1A280B7C007BFC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1587D3C1A280B7C007BFC5F /* LaunchScreen.xib */; };
 		A1587D4A1A280B7C007BFC5F /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1587D491A280B7C007BFC5F /* FunFactsTests.swift */; };
+		A1587D561A2A214D007BFC5F /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1587D551A2A214D007BFC5F /* FactBook.swift */; };
+		A19973AA1A34EFB000899745 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19973A91A34EFB000899745 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		A1587D481A280B7C007BFC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1587D491A280B7C007BFC5F /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		A1587D531A280D2D007BFC5F /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Scratchpad.playground; path = FunFacts/Scratchpad.playground; sourceTree = "<group>"; };
+		A1587D551A2A214D007BFC5F /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		A19973A91A34EFB000899745 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				A1587D331A280B7C007BFC5F /* AppDelegate.swift */,
+				A1587D551A2A214D007BFC5F /* FactBook.swift */,
 				A1587D351A280B7C007BFC5F /* ViewController.swift */,
 				A1587D371A280B7C007BFC5F /* Main.storyboard */,
 				A1587D3A1A280B7C007BFC5F /* Images.xcassets */,
 				A1587D3C1A280B7C007BFC5F /* LaunchScreen.xib */,
 				A1587D311A280B7C007BFC5F /* Supporting Files */,
+				A19973A91A34EFB000899745 /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -222,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1587D561A2A214D007BFC5F /* FactBook.swift in Sources */,
 				A1587D361A280B7C007BFC5F /* ViewController.swift in Sources */,
 				A1587D341A280B7C007BFC5F /* AppDelegate.swift in Sources */,
+				A19973AA1A34EFB000899745 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +423,7 @@
 				A1587D4F1A280B7C007BFC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1587D501A280B7C007BFC5F /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				A1587D521A280B7C007BFC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

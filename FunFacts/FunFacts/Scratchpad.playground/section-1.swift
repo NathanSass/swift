@@ -24,3 +24,8 @@ var optionalString: String? = "hello"
 
 optionalString = nil
 
+//Random 
+
+
+var randomNumber = Int(arc4random_uniform(10))
+Int(randomNumber)
